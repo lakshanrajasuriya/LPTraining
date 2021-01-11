@@ -29,7 +29,7 @@ public class Application {
     public static int getCount() {
         int data = 0;
         try {
-            File file = new File("D:\\Programming\\Virtusa\\Krish Java Program\\4 Day\\Task\\ExceptionHandlingExample\\stock.txt");
+            File file = new File("stock.txt");
             Scanner scanner = new Scanner(file);
             while (scanner.hasNextLine()) {
                 data = scanner.nextInt();
@@ -58,7 +58,7 @@ public class Application {
         }
 
         try {
-            FileWriter fileWriter = new FileWriter("D:\\Programming\\Virtusa\\Krish Java Program\\4 Day\\Task\\ExceptionHandlingExample\\stock.txt");
+            FileWriter fileWriter = new FileWriter("stock.txt");
             fileWriter.write(newStock + "");
             fileWriter.close();
         } catch (IOException ioException) {
