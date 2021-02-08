@@ -1,2 +1,2 @@
 # VirtusaLPTraining
-VirtusaLPTraining - Jan 21 Batch
+LPTraining - Jan 21 Batch
